@@ -7,7 +7,7 @@ require('dotenv/config');
 
 app.use(bodyParser.json());
 //ROutes  
-const postsRoute=require('./routes/posts');
+const postsRoute=require('/posts');
 
 app.use('/posts',postsRoute)
 
